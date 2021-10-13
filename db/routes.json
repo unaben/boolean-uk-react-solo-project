@@ -1,0 +1,4 @@
+{
+  "/listings": "/listings?_expand=car",
+  "/listings/*": "/listings/$1?_expand=car"
+}

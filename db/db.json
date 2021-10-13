@@ -1,0 +1,367 @@
+{
+  "listings": [
+    {
+      "title": "SUV",
+      "description": "No dent",
+      "price": 6000,
+      "soldVehicle": false,
+      "image": "https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_cg_hero_large/v1/editorial/2019-bmw-x5-M50d-silver-dean-1001x565.jpg",
+      "carId": 25,
+      "id": 25
+    },
+    {
+      "title": "SUV",
+      "description": "No damage",
+      "price": 25000,
+      "soldVehicle": false,
+      "image": "https://www.thedrive.com/content/2021/05/F-Pace-Top.jpg?quality=85&width=1920&quality=70",
+      "carId": 30,
+      "id": 30
+    },
+    {
+      "title": "SUV",
+      "description": "Good condition",
+      "price": 300000,
+      "soldVehicle": false,
+      "image": "https://anrky.com/wp-content/uploads/2020/01/ANRKY-Wheels-Lamborghini-Urus-AN30-SeriesTHREE_49101914761_o.jpg",
+      "carId": 31,
+      "id": 31
+    },
+    {
+      "title": "SUV",
+      "description": "Side dent",
+      "price": 24000,
+      "soldVehicle": false,
+      "image": "https://images.drive.com.au/driveau/image/upload/c_fill,f_auto,g_auto,h_540,q_auto:good,w_960/v1/cms/uploads/SXvr4NEkTju1ueFgfow7.jpg",
+      "carId": 32,
+      "id": 32
+    },
+    {
+      "title": "Car",
+      "description": "Perfect condition",
+      "price": 23500,
+      "soldVehicle": false,
+      "image": "https://www.automobilemag.com/uploads/sites/11/2020/10/2020-Ford-Mustang-Ecoboost-Convertible-High-Performance-front-three-quarter-1.jpg?fit=around%7C1000:625",
+      "carId": 33,
+      "id": 33
+    },
+    {
+      "title": "Luxury Car",
+      "description": "Perfect condition",
+      "price": 250000,
+      "soldVehicle": false,
+      "image": "https://cdn.carbuzz.com/gallery-images/2020-rolls-royce-phantom-front-angle-view-carbuzz-390685.jpg",
+      "carId": 34,
+      "id": 34
+    },
+    {
+      "title": "Luxury Car",
+      "description": "No dent",
+      "price": 1600000,
+      "soldVehicle": false,
+      "image": "https://live.staticflickr.com/6122/5942834121_67845935e2_b.jpg",
+      "carId": 36,
+      "id": 36
+    },
+    {
+      "title": "MVP",
+      "description": "No dent",
+      "price": 18000,
+      "soldVehicle": false,
+      "image": "https://images.virtual-showroom.com/vehicleimages/296/fullsize/20210614142158_2790_Fullsize.jpg",
+      "carId": 38,
+      "id": 37
+    },
+    {
+      "title": "Little Red",
+      "description": "Tail lamp damage",
+      "price": 9000,
+      "soldVehicle": true,
+      "image": "https://i.ebayimg.com/images/g/n2gAAOSwj2Za4xg2/s-l500.png",
+      "carId": 40,
+      "id": 38
+    }
+  ],
+  "cars": [
+    {
+      "model": "Picasso",
+      "make": "Citreon",
+      "color": "Red",
+      "year": 2000,
+      "id": 1
+    },
+    {
+      "model": "Civic",
+      "make": "Honda",
+      "color": "White",
+      "year": 2014,
+      "id": 2
+    },
+    {
+      "model": "Toyota",
+      "make": "Prius",
+      "color": "Grey",
+      "year": 2014,
+      "id": 3
+    },
+    {
+      "model": "Toyota",
+      "make": "Prius",
+      "color": "Grey",
+      "year": 2014,
+      "id": 4
+    },
+    {
+      "model": "Civic",
+      "make": "Honda",
+      "color": "White",
+      "year": 2021,
+      "id": 5
+    },
+    {
+      "model": "Civic",
+      "make": "Honda",
+      "color": "White",
+      "year": 2014,
+      "id": 6
+    },
+    {
+      "model": "Civic",
+      "make": "Honda",
+      "color": "White",
+      "year": 2014,
+      "id": 7
+    },
+    {
+      "model": "Civic",
+      "make": "Honda",
+      "color": "White",
+      "year": 2014,
+      "id": 8
+    },
+    {
+      "model": "Civic",
+      "make": "Honda",
+      "color": "White",
+      "year": 2014,
+      "id": 9
+    },
+    {
+      "model": "Civic",
+      "make": "Honda",
+      "color": "White",
+      "year": 2014,
+      "id": 10
+    },
+    {
+      "model": "GLX",
+      "make": "Mercedes",
+      "color": "Black",
+      "year": 2014,
+      "id": 11
+    },
+    {
+      "model": "Civic",
+      "make": "Honda",
+      "color": "White",
+      "year": 2014,
+      "id": 12
+    },
+    {
+      "model": "Toyota",
+      "make": "Honda",
+      "color": "White",
+      "year": 2014,
+      "id": 13
+    },
+    {
+      "model": "Toyota",
+      "make": "Honda",
+      "color": "White",
+      "year": 2014,
+      "id": 14
+    },
+    {
+      "make": "",
+      "model": "",
+      "color": "",
+      "year": null,
+      "id": 15
+    },
+    {
+      "make": "Honda",
+      "model": "Civic",
+      "color": "White",
+      "year": 2014,
+      "id": 16
+    },
+    {
+      "make": "Honda",
+      "model": "Civic",
+      "color": "White",
+      "year": 2014,
+      "id": 17
+    },
+    {
+      "make": "Honda",
+      "model": "Civic",
+      "color": "White",
+      "year": 2014,
+      "id": 18
+    },
+    {
+      "make": "",
+      "model": "",
+      "color": "",
+      "year": null,
+      "id": 19
+    },
+    {
+      "make": "Honda",
+      "model": "Civic",
+      "color": "White",
+      "year": 2014,
+      "id": 20
+    },
+    {
+      "make": "Honda",
+      "model": "Civic",
+      "color": "White",
+      "year": 2014,
+      "id": 21
+    },
+    {
+      "make": "Honda",
+      "model": "Civic",
+      "color": "White",
+      "year": 2014,
+      "id": 22
+    },
+    {
+      "make": "Honda",
+      "model": "Civic",
+      "color": "White",
+      "year": 2014,
+      "id": 23
+    },
+    {
+      "make": "Honda",
+      "model": "Civic",
+      "color": "White",
+      "year": 2014,
+      "id": 24
+    },
+    {
+      "make": "BMW",
+      "model": "X5",
+      "color": "Silver",
+      "year": 2020,
+      "id": 25
+    },
+    {
+      "make": "Honda",
+      "model": "Toyota",
+      "color": "White",
+      "year": 2014,
+      "id": 26
+    },
+    {
+      "make": "Honda",
+      "model": "Civic",
+      "color": "White",
+      "year": 2014,
+      "id": 27
+    },
+    {
+      "make": "BMW",
+      "model": "X5",
+      "color": "Silver",
+      "year": 2020,
+      "id": 28
+    },
+    {
+      "make": "BMW",
+      "model": "X5",
+      "color": "Silver",
+      "year": 2020,
+      "id": 29
+    },
+    {
+      "make": "Jaguar",
+      "model": "F-pace",
+      "color": "Blue",
+      "year": 2021,
+      "id": 30
+    },
+    {
+      "make": "Lamborghini",
+      "model": "Urus",
+      "color": "Black",
+      "year": 2020,
+      "id": 31
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Touareg",
+      "color": "Black",
+      "year": 2020,
+      "id": 32
+    },
+    {
+      "make": "Ford",
+      "model": "Mustang",
+      "color": "Red",
+      "year": 2020,
+      "id": 33
+    },
+    {
+      "make": "Rolls-Royce",
+      "model": "Phantom Ghost",
+      "color": "White",
+      "year": 2020,
+      "id": 34
+    },
+    {
+      "make": "Bugatti",
+      "model": "Veyron",
+      "color": "Purple",
+      "year": 2020,
+      "id": 35
+    },
+    {
+      "make": "Bugatti",
+      "model": "Veyron",
+      "color": "Purple",
+      "year": 2020,
+      "id": 36
+    },
+    {
+      "make": "Ford",
+      "model": "Galaxy",
+      "color": "Grey",
+      "year": 2020,
+      "id": 37
+    },
+    {
+      "make": "Ford",
+      "model": "Galaxy",
+      "color": "Grey",
+      "year": 2020,
+      "id": 38
+    },
+    {
+      "make": "Subaru",
+      "model": "Impreza",
+      "color": "Blue",
+      "year": 1999,
+      "id": 39
+    },
+    {
+      "make": "Honda",
+      "model": "Civic",
+      "color": "White",
+      "year": 2014,
+      "id": 40
+    }
+  ]
+}
