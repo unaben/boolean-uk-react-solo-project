@@ -126,16 +126,6 @@ fetch(`http://localhost:3030/listings/$${listingToEdit.car.id}`, { method: 'DELE
 .then(() => console.log('Delete successful'));
 }
 
-
-//  const listingToDelete = {
-//    method: "DELETE"
-//  };
-//  fetch(`http://localhost:3030/listings/${listingToEdit.id}`, listingToDelete
-// )
-//   .then((res) => res.json())
-//   .then((res) => console.log(res));
-// };
-
   const handleTitle = (event) => {
     setTitle(event.target.value);
   };

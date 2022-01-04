@@ -4,6 +4,7 @@ import CreatedStockSection from "./components/CreatedStockSection";
 import "./Styles/index.css";
 import EditInventoryForm from "./components/EditInventoryForm";
 
+
 function App() {
   const [listings, setListings] = useState([]);
   // const [hideInventoryForm, setHideInventoryForm] = useState(true);

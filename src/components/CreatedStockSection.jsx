@@ -45,45 +45,53 @@ const CreatedStockSection = (props) => {
         </div>
       </header>
       <ul>
-        {listings.filter((listing) => { 
-          console.log("filter listings: ", listings)       
-          if (selectedFilter === listing.car.color.toLowerCase() || selectedFilter === "") {
-            // if (selectedFilter === listing.car.color || selectedFilter === "") {
-            return true;
-          } else {
-            return false;
-          }
-        })
-        .map((listing, index) => {
-          const { description, price, image, car } = listing;
+        {listings
+          .filter((listing) => {
+            console.log("filter listings: ", listings);
+            if (
+              selectedFilter === listing.car.color.toLowerCase() ||
+              selectedFilter === ""
+            ) {
+              return true;
+            } else {
+              return false;
+            }
+          })
+          .map((listing, index) => {
+            const { description, price, image, car } = listing;
 
-          const { model, make, color, year } = car;
+            const { model, make, color, year } = car;
 
-          console.log("image inside listing is: ", image)
-          return (
-            <li key={index} className="render-list">
-              <div className="box">
-                <img src={image} alt="" />
-              </div>
-              <h2>
-                {make} {model}
-              </h2>
-              <h3> {description}</h3>
-              <div className="auto-flow">
-                <div>
-                  <h3>Color: {color}</h3>
+            console.log("image inside listing is: ", image);
+            return (
+              <li key={index} className="render-list">
+                <div className="box">
+                  <img src={image} alt="" />
                 </div>
-                <div>
-                  <h3>Year: {year}</h3>
+                <h2>
+                  {make} {model}
+                </h2>
+                <h3> {description}</h3>
+                <div className="auto-flow">
+                  <div>
+                    <h3>Color: {color}</h3>
+                  </div>
+                  <div>
+                    <h3>Year: {year}</h3>
+                  </div>
+                  <h3>Value: £{price}</h3>
                 </div>
-                <h3>Value: £{price}</h3>
-              </div>
-              <button className="btn" onClick={() => setListingToEdit(listing)}>Edit</button>              
-            </li>
-          );
-        })}
+                <button
+                  className="btn"
+                  onClick={() => setListingToEdit(listing)}
+                >
+                  Edit
+                </button>
+              </li>
+            );
+          })}
       </ul>
-   </>
+    </>
   );
 };
 
